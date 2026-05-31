@@ -1,0 +1,23 @@
+Treśći zadań pracy domowej lekcja05:
+✏️ Zadanie 7 – Zliczanie wystąpień
+
+Masz listę predykcji: ['spam', 'ham', 'spam', 'spam', 'ham', 'ham', 'spam']. Policz ile jest 'spam' i ile 'ham' używając metody count().
+
+(proste)
+
+✏️ Zadanie 9 – Filtrowanie outlierów
+
+Masz listę pomiarów: [23, 24, 22, 150, 23, 25, -10, 24, 23]. Outlierem jest wartość poza zakresem [20, 30]. Stwórz nową listę bez outlierów używając list comprehension.
+
+🧠 Zadanie 14 – Ranking modeli
+
+Masz listę wyników modeli:
+
+models = [
+    ('LogisticRegression', 0.78, 1.2),
+    ('RandomForest', 0.92, 45.6),
+    ('SVM', 0.85, 12.3),
+    ('XGBoost', 0.95, 67.8)
+]
+# Format: (nazwa, accuracy, czas_treningu_s)
+Stwórz ranking modeli według "efficiency score" = accuracy / log10(czas). Posortuj malejąco i wyświetl top 3.
